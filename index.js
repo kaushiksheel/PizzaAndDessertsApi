@@ -105,7 +105,7 @@ const Pizzas = [
       "price": 629,
       "description":"Chicken Tikka,Chicken Malai Tikka,Onion,Red Paprika",
       "quantity": 1,
-      " img":
+      "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
       "size and crust": {
         "medium Pan": [{ "price": 725 }],

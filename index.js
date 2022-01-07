@@ -18,9 +18,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.7d3b623ceb66e87fc7247fa81c6cfdc1.1.jpg?width=800",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 279 }],
-        "medium stuffed crust-cheese max": [{ "price": 375 }],
-        "medium stuffed crust-veg kebab": [{ "price": 375 }],
+        "mediumPan": [{ "price": 279 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 375 }],
+        "mediumstuffedcrustvegkebab": [{ "price": 375 }],
       },
     },
     {
@@ -33,8 +33,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.954d93452557209bebe0b7f49e776ba2.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 529 }],
-        "medium stuffed crust-cheese max": [{ "price": 625 }],
+        "mediumPan": [{ "price": 529 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 625 }],
         "medium stuffed crust-veg kebab": [{ "price": 625 }],
       },
     },
@@ -48,8 +48,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.403f5e6cf9abb29247a97732c8aae860.1.jpg?width=800",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 569 }],
-        "medium stuffed crust-cheese max": [{ "price": 665 }],
+        "mediumPan": [{ "price": 569 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 665 }],
         "medium stuffed crust-veg kebab": [{ "price": 665 }],
       },
     },
@@ -63,8 +63,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.9d215eb865735ce44225317997153b73.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 569 }],
-        "medium stuffed crust-cheese max": [{ "price": 665 }],
+        "mediumPan": [{ "price": 569 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 665 }],
         "medium stuffed crust-veg kebab": [{ "price": 665 }],
       },
     },
@@ -78,8 +78,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.6895b792bfdd274d1bb822ff8dc1a69b.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 529 }],
-        "medium stuffed crust-cheese max": [{ "price": 625 }],
+        "mediumPan": [{ "price": 529 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 625 }],
         "medium stuffed crust-veg kebab": [{ "price": 625 }],
       },
     },
@@ -93,9 +93,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.f29fa58b7f2a3ec307b6c0b44411f900.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 725 }],
-        "medium stuffed crust-cheese max": [{ "price": 625 }],
-        "medium stuffed crust- chicken seekh kebab": [{ "price": 725 }],
+        "mediumPan": [{ "price": 725 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 625 }],
+        "mediumstuffedcrustchickenseekhkebab": [{ "price": 725 }],
       },
     },
     {
@@ -108,9 +108,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 725 }],
-        "medium stuffed crust-cheese max": [{ "price": 625 }],
-        "medium stuffed crust- chicken seekh kebab": [{ "price": 725 }],
+        "mediumPan": [{ "price": 725 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 625 }],
+        "mediumstuffedcrustchickenseekhkebab": [{ "price": 725 }],
       },
     },
     {
@@ -123,9 +123,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.21e57422a5579843b4722a067fbda8ca.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 629 }],
-        "medium stuffed crust-cheese max": [{ "price": 725 }],
-        "medium stuffed crust- chicken seekh kebab": [{ "price": 725 }],
+        "mediumPan": [{ "price": 629 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 725 }],
+        "mediumstuffedcrustchickenseekhkebab": [{ "price": 725 }],
       },
     },
     {
@@ -138,9 +138,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.4e3ef28838886936da1a2280543cfae8.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 569 }],
-        "medium stuffed crust-cheese max": [{ "price": 665 }],
-        "medium stuffed crust- chicken seekh kebab": [{ "price": 665 }],
+        "mediumPan": [{ "price": 569 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 665 }],
+        "mediumstuffedcrustchickenseekhkebab": [{ "price": 665 }],
       },
     },
     {
@@ -153,9 +153,9 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.27693ba787c68a763bb3f0e397de0019.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 529 }],
-        "medium stuffed crust-cheese max": [{ "price": 625 }],
-        "medium stuffed crust- chicken seekh kebab": [{ "price": 625 }],
+        "mediumPan": [{ "price": 529 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 625 }],
+        "mediumstuffedcrustchickenseekhkebab": [{ "price": 625 }],
       },
     },
     {
@@ -168,8 +168,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-chicken-meatballs.fcb515f6af388d6e30df81ca2968798c.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 469 }],
-        "medium stuffed crust-cheese max": [{ "price": 565 }],
+        "mediumPan": [{ "price": 469 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 565 }],
         "medium stuffed crust-veg kebab": [{ "price": 565 }],
       },
     },
@@ -183,8 +183,8 @@ const Pizzas = [
       "img":
         "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg?width=522",
       "sizeandcrust": {
-        "medium Pan": [{ "price": 419 }],
-        "medium stuffed crust-cheese max": [{ "price": 515 }],
+        "mediumPan": [{ "price": 419 }],
+        "mediumstuffedcrustcheesemax": [{ "price": 515 }],
         "medium stuffed crust-veg kebab": [{ "price": 515 }],
       },
     },

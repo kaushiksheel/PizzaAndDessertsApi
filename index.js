@@ -55,7 +55,7 @@ const Pizzas = [
     },
     {
       "id": 4,
-      "name": "Dobule Paneer Supreme",
+      "name": "Double Paneer Supreme",
       "veg": true,
       "price": 569,
       "description":"Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",

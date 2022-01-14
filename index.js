@@ -7,9 +7,12 @@ const cors=require('cors')
 dotenv.config({path:'./.env'})
 app.use(express.json())
 app.use(cors())
+
+const id=  Math.floor(Math.random()*9999)
+
 const Pizzas = [
     {
-      "id":1,
+      "id":id,
       "name":"Margherita",
       "veg":true,
       "price":449,
@@ -23,7 +26,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":2,
+      "id":id,
       "name":"Tandoori Paneer",
       "veg":true,
       "price":529,
@@ -37,7 +40,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":3,
+      "id":id,
       "name":"Veggie Supreme",
       "veg":true,
       "price":569,
@@ -51,7 +54,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":4,
+      "id":id,
       "name":"Double Paneer Supreme",
       "veg":true,
       "price":569,
@@ -65,7 +68,7 @@ const Pizzas = [
       }],
     },
     {
-      "id": 5,
+      "id":id5,
       "name":"Veggie Kebab Surprise",
       "veg":true,
       "price":529,
@@ -79,7 +82,7 @@ const Pizzas = [
       }],
     },
     {
-      "id": 6,
+      "id":id6,
       "name":"Chicken Supreme",
       "veg":false,
       "price":629,
@@ -107,7 +110,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":8,
+      "id":id,
       "name":"Triple Chicken Feast",
       "veg":false,
       "price":629,
@@ -121,7 +124,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":9,
+      "id":id,
       "name":"Chicken Tikka",
       "veg":false,
       "price":569,
@@ -135,7 +138,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":10,
+      "id":id0,
       "name":"Double Chicken Sausage",
       "veg":false,
       "price":529,
@@ -149,7 +152,7 @@ const Pizzas = [
       }],
     },
     {
-     "id":11,
+     "id":id1,
       "name":"Spiced Chicken Meatballs",
       "veg":false,
       "price":469,
@@ -163,7 +166,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":12,
+      "id":id2,
       "name":"Double Cheese",
       "veg":true,
       "price":419,
@@ -181,7 +184,7 @@ const Pizzas = [
 
 const Desserts=[
     {
-        "id":1,
+        "id":id,
         "name":"Choco Sundae",
         "price":29,
         "description":"Choco Sundae Cup (100 ml)",
@@ -189,7 +192,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":2,
+        "id":id,
         "name":"Cornetto Double Chocolate",
         "price":38,
         "description":"Cornetto Double Chocolate Cone (105 ml)",
@@ -197,7 +200,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":3,
+        "id":id,
         "name":"Magnum Truffle",
         "price":76,
         "description":"Magnum Truffle (80 ml)",
@@ -205,7 +208,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":4,
+        "id":id,
         "name":"Divine Chocolate(Tub)",
         "price":209,
         "description":"Divine Chocolate (700 ml)",
@@ -213,7 +216,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":5,
+        "id":id,
         "name":"Choco Volcano Cake",
         "price":99,
         "description":"Choco Delight With A Gooey Chocolate Volcano Centre",

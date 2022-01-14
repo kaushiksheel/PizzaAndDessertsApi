@@ -68,7 +68,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id5,
+      "id":id,
       "name":"Veggie Kebab Surprise",
       "veg":true,
       "price":529,
@@ -82,7 +82,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id6,
+      "id":id,
       "name":"Chicken Supreme",
       "veg":false,
       "price":629,
@@ -138,7 +138,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id0,
+      "id":id,
       "name":"Double Chicken Sausage",
       "veg":false,
       "price":529,
@@ -152,7 +152,7 @@ const Pizzas = [
       }],
     },
     {
-     "id":id1,
+     "id":id,
       "name":"Spiced Chicken Meatballs",
       "veg":false,
       "price":469,
@@ -166,7 +166,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id2,
+      "id":id,
       "name":"Double Cheese",
       "veg":true,
       "price":419,

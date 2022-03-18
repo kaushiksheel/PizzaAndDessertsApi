@@ -96,7 +96,7 @@ const Pizzas = [
       }],
     },
     {
-      id: 7,
+      id: id,
       "name":"Chicken Tikka Supreme",
       "veg":false,
       "price":629,
@@ -173,6 +173,34 @@ const Pizzas = [
       "description":"Extra Cheese on Cheese",
       "quantity":1,
       "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg?width=522",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 419 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 515 }],
+        "medium stuffed crust-veg kebab":[{ "price": 515 }],
+      }],
+    },
+    {
+      "id":id,
+      "name":"Chicken Pepper Crunch",
+      "veg":false,
+      "price":559,
+      "description":"Herbed Chicken, Onion, Green Capsicum, Red Capsicum ",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepper-crunch.ad90bc84672d7cd34351745f4b77fe9c.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 419 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 515 }],
+        "medium stuffed crust-veg kebab":[{ "price": 515 }],
+      }],
+    },
+    {
+      "id":id,
+      "name":"Italian Chicken Feast",
+      "veg":false,
+      "price":659,
+      "description":"Herbed Chicken, Onion, Green Capsicum, Red Capsicum ",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/italian-chicken-feast.1ccf57b605633e47ca4c6455340a5d2e.1.jpg",
       "sizeandcrust":[{
         "mediumPan":[{ "price": 419 }],
         "mediumstuffedcrustcheesemax":[{ "price": 515 }],

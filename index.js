@@ -8,11 +8,10 @@ dotenv.config({path:'./.env'})
 app.use(express.json())
 app.use(cors())
 
-const id=  Math.floor(Math.random()*9999)
 
 const Pizzas = [
     {
-      "id":id,
+      "id":1,
       "name":"Margherita",
       "veg":true,
       "price":449,
@@ -26,7 +25,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":2,
       "name":"Tandoori Paneer",
       "veg":true,
       "price":529,
@@ -40,7 +39,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":3,
       "name":"Veggie Supreme",
       "veg":true,
       "price":569,
@@ -54,7 +53,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":4,
       "name":"Double Paneer Supreme",
       "veg":true,
       "price":569,
@@ -68,7 +67,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":4,
       "name":"Veggie Kebab Surprise",
       "veg":true,
       "price":529,
@@ -82,7 +81,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":5,
       "name":"Chicken Supreme",
       "veg":false,
       "price":629,
@@ -96,7 +95,7 @@ const Pizzas = [
       }],
     },
     {
-      id: id,
+      id:6,
       "name":"Chicken Tikka Supreme",
       "veg":false,
       "price":629,
@@ -110,7 +109,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":7,
       "name":"Triple Chicken Feast",
       "veg":false,
       "price":629,
@@ -124,7 +123,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":8,
       "name":"Chicken Tikka",
       "veg":false,
       "price":569,
@@ -138,7 +137,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":9,
       "name":"Double Chicken Sausage",
       "veg":false,
       "price":529,
@@ -152,7 +151,7 @@ const Pizzas = [
       }],
     },
     {
-     "id":id,
+     "id":10,
       "name":"Spiced Chicken Meatballs",
       "veg":false,
       "price":469,
@@ -166,7 +165,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":11,
       "name":"Double Cheese",
       "veg":true,
       "price":419,
@@ -179,8 +178,8 @@ const Pizzas = [
         "medium stuffed crust-veg kebab":[{ "price": 515 }],
       }],
     },
-    {
-      "id":id,
+  {
+      "id":12,
       "name":"Chicken Pepper Crunch",
       "veg":false,
       "price":559,
@@ -194,7 +193,7 @@ const Pizzas = [
       }],
     },
     {
-      "id":id,
+      "id":13,
       "name":"Italian Chicken Feast",
       "veg":false,
       "price":659,
@@ -207,12 +206,82 @@ const Pizzas = [
         "medium stuffed crust-veg kebab":[{ "price": 515 }],
       }],
     },
+    {
+      "id":14,
+      "name":"Corn & Cheese",
+      "veg":true,
+      "price":19,
+      "description":"Cheese ,Sweet Corn",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/corn.4f5188ab4391cb45d4a4ed9e849f1e32.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 29 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 32 }],
+        "medium stuffed crust-veg kebab":[{ "price": 45 }],
+      }],
+    },
+    {
+      "id":15,
+      "name":"Tandoori Onion",
+      "veg":true,
+      "price":19,
+      "description":"Cheese & Onion in Tandoori sause",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-onion.27d62d7a89f3fd2bb2eb2b9f91d6223b.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 29 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 32 }],
+        "medium stuffed crust kebab":[{ "price": 45 }],
+      }],
+    },
+    {
+      "id":16,
+      "name":"Chicken Pepperoni",
+      "veg":false,
+      "price":29,
+      "description":"Cheese ,Chicken pepperoni",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepperoni.59a23d539b3675012fadb9e98b043216.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 29 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 32 }],
+
+      }],
+    },
+    {
+      "id":17,
+      "name":"Chicken N Corn Delight",
+      "veg":false,
+      "price":29,
+      "description":"Cheese ,Chicken pepperoni",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-n-corn-delight.bc0460bc62d23a77e9db087010bcf00a.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 29 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 32 }],
+        "medium stuffed crust-veg kebab":[{ "price": 45 }],
+      }],
+    },
+    {
+      "id":18,
+      "name":"Farmers Pick",
+      "veg":true,
+      "price":29,
+      "description":"Onion Herbed & Green Capsicum, Red Capsicum, Mushroom, Baby Corn",
+      "quantity":1,
+      "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/farmers-pick.fcd8cacee43fb94e173e5f04fdf2c2b5.1.jpg",
+      "sizeandcrust":[{
+        "mediumPan":[{ "price": 29 }],
+        "mediumstuffedcrustcheesemax":[{ "price": 32 }],
+        "medium stuffed crust-veg kebab":[{ "price": 45 }],
+      }],
+    },
   ];
   
 
 const Desserts=[
     {
-        "id":id,
+        "id":1,
         "name":"Choco Sundae",
         "price":29,
         "description":"Choco Sundae Cup (100 ml)",
@@ -220,7 +289,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":id,
+        "id":2,
         "name":"Cornetto Double Chocolate",
         "price":38,
         "description":"Cornetto Double Chocolate Cone (105 ml)",
@@ -228,7 +297,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":id,
+        "id":3,
         "name":"Magnum Truffle",
         "price":76,
         "description":"Magnum Truffle (80 ml)",
@@ -236,7 +305,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":id,
+        "id":4,
         "name":"Divine Chocolate(Tub)",
         "price":209,
         "description":"Divine Chocolate (700 ml)",
@@ -244,7 +313,7 @@ const Desserts=[
         "quantity":1
     },
     {
-        "id":id,
+        "id":5,
         "name":"Choco Volcano Cake",
         "price":99,
         "description":"Choco Delight With A Gooey Chocolate Volcano Centre",
@@ -261,6 +330,10 @@ app.get('/',(req,res)=>{
 app.get('/pizzas',(req,res)=>{
     res.status(200).send(Pizzas)
 })
+
+
+
+
 app.get('/desserts',(req,res)=>{
     res.status(200).send(Desserts)
 })

@@ -454,7 +454,7 @@ app.get('/desserts', (req, res) => {
 // http://localhost:4000/?search=fds
 
 
-let myPizzas = [...Pizzas];
+let allData = [...Pizzas,...Desserts];
 
 app.get('/search', (req, res) => {
   const query = req.query
@@ -464,7 +464,7 @@ app.get('/search', (req, res) => {
 
   const queryTerm = search.toLowerCase().replace(/ /g, '')
 
-  myPizzas.filter((pizza) => {
+  allData.filter((pizza) => {
     const pizzaName = pizza.name.toLowerCase().replace(/ /g, '')
     if (pizzaName === queryTerm) {
       res.status(200).json(pizza)

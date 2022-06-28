@@ -441,6 +441,17 @@ app.get('/pizzas', (req, res) => {
   res.status(200).send(Pizzas)
 })
 
+// find pizzas by id
+
+app.get('/pizzas/:id',(req,res)=>{
+  let pizza=Pizzas.find(pizza=>pizza.id===parseInt(req.params.id));
+  if(!pizza){
+    return res.status(404).send('no pizza found with the given id');
+  }else{
+    return res.status(200).json(pizza)
+  }
+})
+
 
 
 
@@ -449,7 +460,16 @@ app.get('/desserts', (req, res) => {
 })
 
 
+// find desserts by id
 
+app.get('/desserts/:id',(req,res)=>{
+  let dessert=Desserts.find(dessert=>dessert.id===parseInt(req.params.id));
+  if(!dessert){
+    return res.status(404).send('no dessert found with the given id');
+  }else{
+    return res.status(200).json(dessert)
+  }
+})
 
 // http://localhost:4000/?search=fds
 

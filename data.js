@@ -641,7 +641,7 @@ const Desserts = [{
     "name": "Magnum Truffle",
     "price": 4,
     "description": "Magnum Truffle (80 ml)",
-    "img": "https://www.bigbasket.com/media/uploads/p/l/40079771_4-kwality-walls-magnum-truffle-ice-cream.jpg",
+    "img": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/450560a.jpg",
     "quantity": 1
   },
   {
@@ -657,7 +657,7 @@ const Desserts = [{
     "name": "Choco Volcano Cake",
     "price": 6,
     "description": "Choco Delight With A Gooey Chocolate Volcano Centre",
-    "img": "https://preppykitchen.com/wp-content/uploads/2022/03/Chocolate-Lava-Cake-Feature.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/dessert/choco-volcano-cake.f829dc6e30a07b83f232b4880395162f.1.jpg",
     "quantity": 1
   },
 ]

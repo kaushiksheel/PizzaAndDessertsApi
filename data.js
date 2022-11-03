@@ -625,7 +625,7 @@ const Desserts = [{
     "name": "Choco Sundae",
     "price": 2,
     "description": "Choco Sundae Cup (100 ml)",
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/dessert/choco-sundae.e0d29fd156012e251c099c2771219d18.1.jpg?width=800",
+    "img": "https://www.havmor.com/sites/default/files/styles/502x375/public/gallery/Choco%20Sundae__0.webp?itok=Md5Ameuw",
     "quantity": 1
   },
   {
@@ -641,7 +641,7 @@ const Desserts = [{
     "name": "Magnum Truffle",
     "price": 4,
     "description": "Magnum Truffle (80 ml)",
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/dessert/magnum-truffle.e300005ba1d8c15aafe824c1fa3b41ea.1.jpg?width=522",
+    "img": "https://www.bigbasket.com/media/uploads/p/l/40079771_4-kwality-walls-magnum-truffle-ice-cream.jpg",
     "quantity": 1
   },
   {
@@ -657,7 +657,7 @@ const Desserts = [{
     "name": "Choco Volcano Cake",
     "price": 6,
     "description": "Choco Delight With A Gooey Chocolate Volcano Centre",
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/dessert/choco-volcano-cake.dd9f24941b09268c73c073494d54480d.1.jpg?width=522",
+    "img": "https://preppykitchen.com/wp-content/uploads/2022/03/Chocolate-Lava-Cake-Feature.jpg",
     "quantity": 1
   },
 ]

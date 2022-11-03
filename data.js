@@ -5,7 +5,7 @@ const Pizzas = [{
     "price": 3,
     "description": "Cheese",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.7d3b623ceb66e87fc7247fa81c6cfdc1.1.jpg?width=800",
+    "img":"https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 3
@@ -25,7 +25,7 @@ const Pizzas = [{
     "price": 7,
     "description": "Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.954d93452557209bebe0b7f49e776ba2.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.4ef45717e972cf45b43c010e3cde5a22.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 7
@@ -45,7 +45,7 @@ const Pizzas = [{
     "price": 8,
     "description": "Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.403f5e6cf9abb29247a97732c8aae860.1.jpg?width=800",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.bc8dd369182b636ff171077efa53c344.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 8
@@ -65,7 +65,7 @@ const Pizzas = [{
     "price": 6,
     "description": "Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.9d215eb865735ce44225317997153b73.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.3cb382529b41d14d4a041b5cc5e64341.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 6
@@ -85,7 +85,7 @@ const Pizzas = [{
     "price": 4,
     "description": "Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.6895b792bfdd274d1bb822ff8dc1a69b.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.abab1dff179ab8cf95a59f30d6352297.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 5
@@ -105,7 +105,7 @@ const Pizzas = [{
     "price":7,
     "description": "Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.f29fa58b7f2a3ec307b6c0b44411f900.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.6d53f104f071d304a47440f2fffa7378.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 7
@@ -125,7 +125,7 @@ const Pizzas = [{
     "price": 6,
     "description": "Chicken Tikka,Chicken Malai Tikka,Onion,Red Paprika",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.830de5a911ca95a30e4ca98e529f1b3a.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 7
@@ -145,7 +145,7 @@ const Pizzas = [{
     "price": 8,
     "description": "Schezwan Chicken Meatball Herbed Chicken,Chicken Sausage,Geen Capsicum, Onion,Red Paprika",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.21e57422a5579843b4722a067fbda8ca.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.e4a546e7a8581a60952b99e3fe22987e.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 8
@@ -165,7 +165,7 @@ const Pizzas = [{
     "price": 7,
     "description": "Chicken Tikka, Onion, Tomato",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.4e3ef28838886936da1a2280543cfae8.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.6d441a65371e941db36c2754586119a8.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 7
@@ -185,7 +185,7 @@ const Pizzas = [{
     "price": 5,
     "description": "Chicken Sausage",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.27693ba787c68a763bb3f0e397de0019.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.f172dd6a365e90e655258b17555e74ad.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 5
@@ -205,7 +205,7 @@ const Pizzas = [{
     "price": 4,
     "description": "Schezwan Chicken Meatball Onion",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-chicken-meatballs.fcb515f6af388d6e30df81ca2968798c.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-chicken-meatballs.abd238e81080106d181567a9b52844ae.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 4
@@ -225,7 +225,7 @@ const Pizzas = [{
     "price": 3,
     "description": "Extra Cheese on Cheese",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg?width=522",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.3c8885f8bc6f18facedc7626368f5105.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 3
@@ -245,7 +245,7 @@ const Pizzas = [{
     "price": 5,
     "description": "Herbed Chicken, Onion, Green Capsicum, Red Capsicum ",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepper-crunch.ad90bc84672d7cd34351745f4b77fe9c.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepper-crunch.624edb192601b73335e0100db5a6263a.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 5
@@ -265,7 +265,7 @@ const Pizzas = [{
     "price": 6,
     "description": "Herbed Chicken, Onion, Green Capsicum, Red Capsicum ",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/italian-chicken-feast.1ccf57b605633e47ca4c6455340a5d2e.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/italian-chicken-feast.edad91a082e9a16d677722a071487a1c.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 6
@@ -285,7 +285,7 @@ const Pizzas = [{
     "price": 5,
     "description": "Cheese ,Sweet Corn",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/corn.4f5188ab4391cb45d4a4ed9e849f1e32.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/corn.f8baa08ad7f607f1de30f96bb9245b50.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 5
@@ -305,7 +305,7 @@ const Pizzas = [{
     "price": 6,
     "description": "Cheese & Onion in Tandoori sause",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-onion.27d62d7a89f3fd2bb2eb2b9f91d6223b.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-onion.98e8cbd306a1166cedbbdbd2a97eade3.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 7
@@ -325,7 +325,7 @@ const Pizzas = [{
     "price": 5,
     "description": "Cheese ,Chicken pepperoni",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepperoni.59a23d539b3675012fadb9e98b043216.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-pepperoni.6952ef03215b72477abff3574b4b881e.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 6
@@ -343,7 +343,7 @@ const Pizzas = [{
     "price": 9,
     "description": "Cheese ,Chicken pepperoni",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-n-corn-delight.bc0460bc62d23a77e9db087010bcf00a.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-n-corn-delight.61cc42effb2de18e6625796c964dd92d.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 9
@@ -364,7 +364,7 @@ const Pizzas = [{
     "price": 29,
     "description": "Onion Herbed & Green Capsicum, Red Capsicum, Mushroom, Baby Corn",
     "quantity": 1,
-    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/farmers-pick.fcd8cacee43fb94e173e5f04fdf2c2b5.1.jpg",
+    "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/farmers-pick.794695a631c14d4404057470020be703.1.jpg?width=550",
     "sizeandcrust": [{
       "mediumPan": [{
         "price": 5
